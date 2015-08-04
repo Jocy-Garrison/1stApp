@@ -5,13 +5,6 @@ Hi guys, it looks we can share the documents here, but quip is more convenience 
 what's your opinion?
 
 
-Fine
-
-OK
-
-commit 就可以了
-
-好像不行
-
-
 anytime
+
+

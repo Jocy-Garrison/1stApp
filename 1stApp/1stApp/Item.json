@@ -1,0 +1,14 @@
+{
+    "data": ["dior|perfume", "Channel|perfume", "30"],
+    "Items" : [
+                {
+                "name" : "dior",
+                "category" : "perfume"
+                },
+                {
+                "name" : "channel",
+                "category" : "perfume"
+                }
+                ]
+
+}

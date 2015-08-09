@@ -67,7 +67,17 @@ class MasterViewController: UITableViewController {
             if let indexPath = self.tableView.indexPathForSelectedRow() {
                 let thing = things[indexPath.row]
                 let controller = (segue.destinationViewController as! UINavigationController).topViewController as! DetailViewController
+                
+                
+                
                 controller.detailItem = thing
+                println("thing\(thing.name)ccc\(thing.category)")
+                controller.tdeatil = thing
+                println(controller.detailItem?.name)
+               
+                
+                
+                
                 controller.navigationItem.leftBarButtonItem = self.splitViewController?.displayModeButtonItem()
                 controller.navigationItem.leftItemsSupplementBackButton = true
                 let saveButton = UIBarButtonItem(barButtonSystemItem: .Save, target: self, action: "saveItem:")

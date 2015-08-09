@@ -21,6 +21,8 @@ class DetailViewController: UIViewController {
             self.configureView()
         }
     }
+    
+    var tdeatil:ItemList?
 
     func configureView() {
         // Update the user interface for the detail item.
@@ -31,10 +33,13 @@ class DetailViewController: UIViewController {
         //        }
         if let detail: AnyObject = detailItem {
             if nameField != nil{
-                nameField.text = detail.name
+                //nameField.text = detail.name
+                nameField.text = tdeatil?.name
             }
             if categoryField != nil{
-//                categoryField!.text = detail.category
+                println("category\(detail.category)+name\(detail.name)")
+                //categoryField.text = detail.category
+                categoryField.text = tdeatil?.name
             }
         }
     }

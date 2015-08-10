@@ -39,7 +39,7 @@ class DetailViewController: UIViewController {
             if categoryField != nil{
                 println("category\(detail.category)+name\(detail.name)")
                 //categoryField.text = detail.category
-                categoryField.text = tdeatil?.name
+                categoryField.text = tdeatil?.category
             }
         }
     }
